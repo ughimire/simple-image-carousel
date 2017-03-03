@@ -1,0 +1,58 @@
+.simplecarousel {
+    height: 165px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    padding-top: 20px
+
+}
+
+.simplecarousel_List {
+
+    padding: 0 !important;
+    height: 160px;
+
+}
+
+.simplecarousel_InnerWrapper {
+    position: relative;
+    height: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.simplecarousel ul.simplecarousel_List li {
+
+    list-style: none;
+    float: right;
+
+
+    padding: 5px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+    width:131px;
+
+}
+
+.simplecarousel ul.simplecarousel_List li img {
+
+    max-width: 100%;
+    width: 100%;
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -s-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+ 
+.simplecarousel ul.simplecarousel_List li img:hover {
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -s-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
